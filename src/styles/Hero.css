@@ -1,0 +1,78 @@
+.onlineImg {
+  width: 300px;
+  height: 300px;
+}
+
+.heroContainer {
+  display: flex;
+  width: 67vw;
+}
+
+.heroContent {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.onlineBtn {
+  display: flex;
+  background-color: #323232;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #6c6c6c;
+  border-radius: 40px;
+  font-size: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.onlineBtn:hover{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+.onlineStatus {
+  margin-right: 10px;
+  color: #6fbbcc;
+}
+
+.name {
+  background-image: linear-gradient(
+    105deg,
+    hsl(191deg 48% 62%) 0%,
+    hsl(198deg 53% 65%) 11%,
+    hsl(205deg 54% 68%) 22%,
+    hsl(215deg 51% 72%) 33%,
+    hsl(230deg 42% 75%) 44%,
+    hsl(257deg 35% 74%) 56%,
+    hsl(287deg 29% 72%) 67%,
+    hsl(318deg 33% 71%) 78%,
+    hsl(336deg 42% 72%) 89%,
+    hsl(350deg 46% 73%) 100%
+  );
+  color: transparent;
+  background-clip: text;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.nameContainer{
+    display: flex;
+}
+
+.nameWave{
+    margin-top: 21px;
+    margin-left: 15px;
+    color: #DA9AA5;
+}
+
+.occupation{
+    margin-top: -20px;
+    font-weight: 400;
+    color: #8c8c8c;
+}
+
+.description{
+    font-weight: 500;
+}
