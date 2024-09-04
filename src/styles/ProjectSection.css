@@ -26,6 +26,10 @@
   color: #da9aa5;
 }
 
+.menuBtn:hover{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .projectHeader {
     width: 100%;

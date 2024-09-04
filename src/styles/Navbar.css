@@ -55,22 +55,50 @@
   background-color: red;
 }
 
-.menuBtn{
-    margin-top: -3px;
-    margin-left: 10px;
-    display: none;
+.menuBtn {
+  margin-top: -3px;
+  margin-left: 10px;
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
-  .navbarItems{
+  .navbarItems {
     width: 0px;
     visibility: hidden;
   }
-  .menuBtn{
+  .mobileNavItems {
+    list-style: none;
+    background-color: #303030;
+    margin-top: 100px;
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: -260px;
+    position: fixed;
+  }
+  .mobileNavContainer {
+    width: 76vw;
+    justify-content: right;
+    display: flex;
+  }
+  .mobileNavItems a {
+    text-decoration: none;
+    color: white;
+  }
+  .mobileNavItems li {
+    margin-bottom: 6px;
+  }
+  .menuBtn {
     visibility: visible;
     display: flex;
   }
-  .socialIcons{
+  .socialIcons {
     margin-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobileNavContainer {
+    display: none;
   }
 }
