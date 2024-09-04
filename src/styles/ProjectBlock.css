@@ -1,0 +1,86 @@
+.projectImg img {
+  width: 280px;
+  height: 260px;
+}
+
+.projectContainer {
+  background-color: #303030;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.projectInfo {
+  margin-left: 40px;
+  padding-right: 30px;
+  margin-top: -10px;
+}
+
+.projectSkills {
+  display: flex;
+  margin-top: -20px;
+}
+
+.projectSkills p {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #9bddec;
+  font-size: 14px;
+}
+
+.projectDescription {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.projectButtons button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  border-style: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.projectButtons a{
+    color: white;
+    text-decoration: none;
+}
+
+.projectButtons button:hover {
+  cursor: pointer;
+}
+
+.moreInfoBtn {
+  background-image: linear-gradient(
+    105deg,
+    hsl(191deg 48% 62%) 0%,
+    hsl(198deg 53% 65%) 11%,
+    hsl(205deg 54% 68%) 22%,
+    hsl(215deg 51% 72%) 33%,
+    hsl(230deg 42% 75%) 44%,
+    hsl(257deg 35% 74%) 56%,
+    hsl(287deg 29% 72%) 67%,
+    hsl(318deg 33% 71%) 78%,
+    hsl(336deg 42% 72%) 89%,
+    hsl(350deg 46% 73%) 100%
+  );
+  color: #303030;
+}
+
+.githubBtn {
+  background-color: #575757;
+}
+
+.demoBtn {
+  background-color: #575757;
+}
