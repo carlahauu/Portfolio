@@ -36,14 +36,14 @@
   margin-right: 20px;
 }
 
-.linkedinIcon a{
-    color: white;
-    text-decoration: none;
+.linkedinIcon a {
+  color: white;
+  text-decoration: none;
 }
 
-.githubIcon a{
-    color: white;
-    text-decoration: none;
+.githubIcon a {
+  color: white;
+  text-decoration: none;
 }
 
 .logo {
@@ -53,4 +53,24 @@
 
 .home:focus {
   background-color: red;
+}
+
+.menuBtn{
+    margin-top: -3px;
+    margin-left: 10px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbarItems{
+    width: 0px;
+    visibility: hidden;
+  }
+  .menuBtn{
+    visibility: visible;
+    display: flex;
+  }
+  .socialIcons{
+    margin-right: 0px;
+  }
 }

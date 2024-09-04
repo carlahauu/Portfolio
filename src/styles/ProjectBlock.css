@@ -51,9 +51,9 @@
   font-size: 15px;
 }
 
-.projectButtons a{
-    color: white;
-    text-decoration: none;
+.projectButtons a {
+  color: white;
+  text-decoration: none;
 }
 
 .projectButtons button:hover {
@@ -83,4 +83,46 @@
 
 .demoBtn {
   background-color: #575757;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectContainer {
+    flex-direction: column;
+    text-align: center;
+    width: 73vw;
+  }
+  .projectInfo {
+    margin-left: 0px;
+    margin-top: -30px;
+    width: 100%;
+  }
+  .projectName{
+    font-size: 27px;
+  }
+  .projectButtons button{
+    width: 100%;
+  }
+  .demoBtn{
+    margin-bottom: 5px;
+  }
+  .githubBtn{
+    margin-bottom: 5px;
+  }
+  .projectSkills {
+    display: none;
+    empty-cells: show;
+    width: 100%;
+    flex-direction: column;
+  }
+  .projectSkills p {
+    margin-bottom: 0px;
+    border-width: 2px;
+  }
+  .projectDescription{
+    margin-top: 15px;
+  }
+  .projectImg img {
+    width: 100%;
+    height: 0px;
+  }
 }

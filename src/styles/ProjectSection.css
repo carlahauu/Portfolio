@@ -1,9 +1,9 @@
-.projectsSection{
-    width: 67vw;
+.projectsSection {
+  width: 67vw;
 }
 
-.projectHeader{
-    background-image: linear-gradient(
+.projectHeader {
+  background-image: linear-gradient(
     105deg,
     hsl(191deg 48% 62%) 0%,
     hsl(198deg 53% 65%) 11%,
@@ -22,6 +22,19 @@
   font-size: 40px;
 }
 
-.projectsSparkle{
-    color: #DA9AA5;
+.projectsSparkle {
+  color: #da9aa5;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectHeader {
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+  }
+  .projectsSection {
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }

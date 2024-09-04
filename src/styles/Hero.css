@@ -27,9 +27,9 @@
   padding-bottom: 10px;
 }
 
-.onlineBtn:hover{
-    background-color: rgb(44, 44, 44);
-    cursor: pointer;
+.onlineBtn:hover {
+  background-color: rgb(44, 44, 44);
+  cursor: pointer;
 }
 
 .onlineStatus {
@@ -57,22 +57,71 @@
   margin-top: 10px;
 }
 
-.nameContainer{
+.nameContainer {
+  display: flex;
+}
+
+.nameWave {
+  margin-top: 21px;
+  margin-left: 15px;
+  color: #da9aa5;
+}
+
+.occupation {
+  margin-top: -20px;
+  font-weight: 400;
+  color: #8c8c8c;
+}
+
+.description {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .heroContainer {
+    flex-direction: column;
+    place-items: center;
+  }
+  .description{
+    margin-top: -5px;
+    font-size: 16px;
+  }
+  .occupation{
+    font-size: 16px;
+  }
+  .heroContent {
+    place-items: center;
+    text-align: center;
+    justify-content: center;
     display: flex;
-}
-
-.nameWave{
-    margin-top: 21px;
-    margin-left: 15px;
-    color: #DA9AA5;
-}
-
-.occupation{
-    margin-top: -20px;
-    font-weight: 400;
-    color: #8c8c8c;
-}
-
-.description{
-    font-weight: 500;
+    width: 72vw;
+    flex-direction: column;
+  }
+  .name{
+    font-size: 30px;
+    margin-left: 47px;
+  }
+  .nameWave{
+    visibility: hidden;
+  }
+  .heroContent {
+    margin-left: 0px;
+  }
+  .onlineImg {
+    width: 200px;
+    height: 200px;
+  }
+  .onlineBtn {
+    display: flex;
+    background-color: #323232;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6c6c6c;
+    border-radius: 40px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Navbar.css";
 import WavingHandIcon from "@mui/icons-material/WavingHand";
 import { GitHub, LinkedIn } from "@mui/icons-material";
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
   return (
@@ -32,6 +33,9 @@ function Navbar() {
         </div>
         <div className="linkedinIcon">
           <a href="https://www.linkedin.com/in/carla-hau/"><LinkedIn /></a>
+        </div>
+        <div className="menuBtn">
+            <MenuIcon fontSize="large" className="menuBtn" />
         </div>
       </div>
     </nav>
