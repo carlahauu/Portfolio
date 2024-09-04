@@ -28,10 +28,10 @@ function Navbar() {
       </ul>
       <div className="socialIcons">
         <div className="githubIcon">
-          <GitHub />
+          <a href="https://github.com/carlahauu"><GitHub /></a>
         </div>
         <div className="linkedinIcon">
-          <LinkedIn />
+          <a href="https://www.linkedin.com/in/carla-hau/"><LinkedIn /></a>
         </div>
       </div>
     </nav>
