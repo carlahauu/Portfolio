@@ -1,19 +1,33 @@
 import React from "react";
+import { useState } from "react";
 import "../styles/Hero.css";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import WavingHand from "@mui/icons-material/WavingHand";
 
 function Hero() {
+  const [onlineImg, setOnlineImg] = useState(true);
+  const [offlineImg, setOfflineImg] = useState(false);
+  const onClick = () => {
+    setOfflineImg(!offlineImg)
+    setOnlineImg(!onlineImg)
+  }
   return (
     <div className="heroContainer">
       <div className="images">
-        <img className="onlineImg" src="src/assets/Online.png" />
+        {onlineImg == true ? (
+          <img className="onlineImg" src="src/assets/Online.png" />
+        ) : (
+          <img className="onlineImg" src="src/assets/Offline.png" />
+        )}
       </div>
       <div className="heroContent">
         <div>
-          <button className="onlineBtn">
-            <FiberManualRecordIcon className="onlineStatus" fontSize="small" />
-            Online
+          <button onClick={onClick} className="onlineBtn">
+          {onlineImg == true ? (
+            <><FiberManualRecordIcon className="onlineStatus" fontSize="small" />Online</>
+        ) : (
+            <><FiberManualRecordIcon className="offlineStatus" fontSize="small" />Offline</>
+        )}
           </button>
         </div>
         <div className="nameContainer">

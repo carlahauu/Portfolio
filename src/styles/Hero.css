@@ -67,6 +67,11 @@
   color: #da9aa5;
 }
 
+.offlineStatus {
+  margin-right: 10px;
+  color: #da9aa5;
+}
+
 .occupation {
   margin-top: -20px;
   font-weight: 400;
@@ -82,11 +87,11 @@
     flex-direction: column;
     place-items: center;
   }
-  .description{
+  .description {
     margin-top: -5px;
     font-size: 16px;
   }
-  .occupation{
+  .occupation {
     font-size: 16px;
   }
   .heroContent {
@@ -97,11 +102,11 @@
     width: 72vw;
     flex-direction: column;
   }
-  .name{
+  .name {
     font-size: 30px;
     margin-left: 47px;
   }
-  .nameWave{
+  .nameWave {
     visibility: hidden;
   }
   .heroContent {

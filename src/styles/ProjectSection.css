@@ -16,7 +16,7 @@
     hsl(336deg 42% 72%) 89%,
     hsl(350deg 46% 73%) 100%
   );
-  width: 50%;
+  text-align: left;
   color: transparent;
   background-clip: text;
   font-size: 40px;
