@@ -1,4 +1,5 @@
 import React from "react";
+import AboutAndChat from "../components/AboutAndChat";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import ProjectSection from "../components/ProjectSection";
@@ -9,6 +10,7 @@ function Home() {
     <div className="homeContainer">
         <Hero />
         <ProjectSection />
+        <AboutAndChat />
     </div>
   );
 }

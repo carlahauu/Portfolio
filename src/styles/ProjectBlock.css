@@ -74,6 +74,9 @@
     hsl(336deg 42% 72%) 89%,
     hsl(350deg 46% 73%) 100%
   );
+}
+
+.moreInfoBtn a {
   color: #303030;
 }
 
@@ -96,16 +99,16 @@
     margin-top: -30px;
     width: 100%;
   }
-  .projectName{
+  .projectName {
     font-size: 27px;
   }
-  .projectButtons button{
+  .projectButtons button {
     width: 100%;
   }
-  .demoBtn{
+  .demoBtn {
     margin-bottom: 5px;
   }
-  .githubBtn{
+  .githubBtn {
     margin-bottom: 5px;
   }
   .projectSkills {
@@ -118,7 +121,7 @@
     margin-bottom: 0px;
     border-width: 2px;
   }
-  .projectDescription{
+  .projectDescription {
     margin-top: 15px;
     font-size: 15px;
   }

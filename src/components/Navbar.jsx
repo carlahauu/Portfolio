@@ -4,7 +4,6 @@ import { useState } from "react";
 import WavingHandIcon from "@mui/icons-material/WavingHand";
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { display } from "@mui/system";
 
 function Navbar() {
   const [style, setStyle] = useState("");

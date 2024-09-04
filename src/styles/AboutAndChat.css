@@ -1,0 +1,13 @@
+.abtAndChatContainer{
+    display: flex;
+    width: 67vw;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .abtAndChatContainer{
+        flex-direction: column;
+        width: 80.5vw;
+    }
+  }
+  
