@@ -3,9 +3,3 @@
   flex-direction: column;
   place-items: center;
 }
-
-@media only screen and (max-width: 600px) {
-  .homeContainer {
-    margin-top: 110px;
-  }
-}

@@ -22,7 +22,7 @@ function Footer(){
             </a>
           </div>
         </div>
-        <p className='author'>© Carla Hau</p>
+        <p className='author'>© 2024 Carla Hau</p>
         <p className='lastUpdated'>Last Updated August 2024</p>
     </footer>
   )

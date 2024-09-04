@@ -5,7 +5,7 @@ import { SiAboutdotme } from "react-icons/si";
 
 function AboutBtn() {
   return (
-    <a href="" className="aboutBtnContainer">
+    <a href="/about" className="aboutBtnContainer">
       <button className="aboutBtn">
         <SiAboutdotme className="meIcon" />
         <p>Click here to learn more</p>

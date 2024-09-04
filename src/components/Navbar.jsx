@@ -33,7 +33,7 @@ function Navbar() {
             <a href="">resume</a>
           </li>
           <li>
-            <a href="">about</a>
+            <a href="/about">about</a>
           </li>
           <li>
             <a href="">contact</a>
@@ -69,7 +69,7 @@ function Navbar() {
             <a href="">resume</a>
           </li>
           <li>
-            <a href="">about</a>
+            <a href="/about">about</a>
           </li>
           <li>
             <a href="">contact</a>
