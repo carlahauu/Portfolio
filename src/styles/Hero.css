@@ -6,6 +6,7 @@
 .heroContainer {
   display: flex;
   width: 67vw;
+  margin-bottom: 30px;
 }
 
 .heroContent {

@@ -24,10 +24,10 @@ function Navbar() {
         </div>
         <ul className="navbarItems">
           <li className="home">
-            <a href="">home</a>
+            <a href="/">home</a>
           </li>
           <li>
-            <a href="">projects</a>
+            <a href="/projects">projects</a>
           </li>
           <li>
             <a href="">resume</a>
@@ -60,10 +60,10 @@ function Navbar() {
       <div style={{ visibility: style }} className="mobileNavContainer">
         <ul className="mobileNavItems">
           <li className="home">
-            <a href="">home</a>
+            <a href="/">home</a>
           </li>
           <li>
-            <a href="">projects</a>
+            <a href="/projects">projects</a>
           </li>
           <li>
             <a href="">resume</a>
