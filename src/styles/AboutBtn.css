@@ -4,6 +4,10 @@
   margin-top: -25px;
 }
 
+.learnMoreText {
+  color: white;
+}
+
 .aboutBtn:hover {
   cursor: pointer;
   background-color: rgb(44, 44, 44);

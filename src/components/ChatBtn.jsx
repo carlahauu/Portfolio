@@ -8,7 +8,7 @@ function ChatBtn() {
       <button className="chatBtn">
         <PiCoffeeFill className="coffeeIcon" />
         <p className="chatText">Let's Chat!</p>
-        <p>Click here to contact me!</p>
+        <p className="contactText">Click here to contact me!</p>
       </button>
     </a>
   );

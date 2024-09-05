@@ -8,7 +8,7 @@ function AboutBtn() {
     <a href="/about" className="aboutBtnContainer">
       <button className="aboutBtn">
         <SiAboutdotme className="meIcon" />
-        <p>Click here to learn more</p>
+        <p className="learnMoreText">Click here to learn more</p>
         <p className="aboutMeText">about me!</p>
       </button>
     </a>

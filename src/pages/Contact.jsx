@@ -69,7 +69,7 @@ export function Contact() {
     <div className="contactSection">
       <div className="contactInfo">
         <h1 className="contactHeader">Let's get in touch!</h1>
-        <a href="mailto:carlahau110@gmail.com">carlahau110@gmail.com</a>
+        <a className="contactEmail" href="mailto:carlahau110@gmail.com">carlahau110@gmail.com</a>
         <div className="contactSocials">
           <a href="https://www.linkedin.com/in/carla-hau/">Linkedin</a>
           <p>(626) 278-4892</p>

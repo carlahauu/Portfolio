@@ -48,11 +48,15 @@
   background-clip: text;
 }
 
+.contactText {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .chatBtnContainer {
     margin-top: 15px;
   }
-  .chatBtnContainer p{
+  .chatBtnContainer p {
     font-size: 20px;
     margin-top: -20px;
   }

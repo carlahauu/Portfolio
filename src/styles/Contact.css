@@ -183,6 +183,9 @@
     justify-content: space-between;
     margin-top: 0px;
   }
+  .contactEmail{
+    width: 70vw;
+}
   .contactInfo {
     width: 100%;
     font-size: 15px;
