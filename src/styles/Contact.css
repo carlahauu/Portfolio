@@ -183,9 +183,10 @@
     justify-content: space-between;
     margin-top: 0px;
   }
-  .contactEmail{
-    font-size: 16px;
-}
+  .contactInfo a {
+    color: white;
+    font-size: 23px;
+  }
   .contactInfo {
     width: 100%;
     font-size: 15px;
@@ -196,5 +197,9 @@
   }
   .sendBtn {
     width: 107%;
+    font-size: 17px;
+  }
+  .contactHeader{
+    font-size: 35px;
   }
 }
