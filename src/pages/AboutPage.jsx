@@ -7,7 +7,7 @@ export function AboutPage() {
       <h1 className="aboutHeader">HEY, LEI HOU, NI HAO!</h1>
       <div className="aboutInfo">
         <div className="aboutImg">
-          <img src="src/assets/AboutPhoto.png" />
+          <img src="/AboutPhoto.png" />
         </div>
         <div className="aboutMe">
           <p className="greeting"></p>
