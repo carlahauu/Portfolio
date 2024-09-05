@@ -6,7 +6,7 @@ import { AutoAwesome } from "@mui/icons-material";
 
 function ProjectSection() {
   const flashifyDemo = true;
-  const flashifySkills = ["React.js", "Clerk", "Gemini API"];
+  const flashifySkills = ["React.js", "HTML & CSS", "Clerk", "Gemini API"];
   return (
     <div className="projectsSection">
       <h2 className="projectHeader">

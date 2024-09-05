@@ -19,6 +19,7 @@
 
 .footerSocials a:hover {
   color: #6fbbcc;
+  opacity: 1;
 }
 
 .author {
@@ -36,6 +37,18 @@
   margin-top: -17px;
 }
 
+.devInfo{
+    text-align: center;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.devInfo p{ 
+    width: 66vw;
+}
+
 @media only screen and (max-width: 600px) {
   .lastUpdated {
     font-size: 15px;
@@ -43,4 +56,7 @@
   .author{
     font-size: 15px;
   }
+  .devInfo{
+    opacity: 0.6;
+}
 }
