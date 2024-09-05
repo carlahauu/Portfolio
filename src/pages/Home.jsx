@@ -1,7 +1,6 @@
 import React from "react";
 import AboutAndChat from "../components/AboutAndChat";
 import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
 import ProjectSection from "../components/ProjectSection";
 import "../styles/Home.css"
 

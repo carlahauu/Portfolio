@@ -36,7 +36,7 @@ function Navbar() {
             <a href="/about">about</a>
           </li>
           <li>
-            <a href="">contact</a>
+            <a href="/contact">contact</a>
           </li>
         </ul>
         <div className="socialIcons">
@@ -72,7 +72,7 @@ function Navbar() {
             <a href="/about">about</a>
           </li>
           <li>
-            <a href="">contact</a>
+            <a href="/contact">contact</a>
           </li>
         </ul>
       </div>

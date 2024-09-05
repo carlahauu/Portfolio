@@ -4,7 +4,7 @@ import { PiCoffeeFill } from "react-icons/pi";
 
 function ChatBtn() {
   return (
-    <a href="" className="chatBtnContainer">
+    <a href="/contact" className="chatBtnContainer">
       <button className="chatBtn">
         <PiCoffeeFill className="coffeeIcon" />
         <p className="chatText">Let's Chat!</p>

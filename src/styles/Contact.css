@@ -1,0 +1,150 @@
+.contactHeader {
+  margin-top: 0px;
+  background-image: linear-gradient(
+    105deg,
+    hsl(191deg 48% 62%) 0%,
+    hsl(198deg 53% 65%) 11%,
+    hsl(205deg 54% 68%) 22%,
+    hsl(215deg 51% 72%) 33%,
+    hsl(230deg 42% 75%) 44%,
+    hsl(257deg 35% 74%) 56%,
+    hsl(287deg 29% 72%) 67%,
+    hsl(318deg 33% 71%) 78%,
+    hsl(336deg 42% 72%) 89%,
+    hsl(350deg 46% 73%) 100%
+  );
+  color: transparent;
+  background-clip: text;
+  font-size: 40px;
+  width: 100%;
+}
+
+.contactInfo a {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.contactSocials a {
+  font-size: 20px;
+}
+
+.contactSocials {
+  margin-top: 0px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  place-items: center;
+}
+
+.contactMessage {
+  width: 100%;
+}
+
+.contactMessage p {
+  width: 100%;
+}
+
+.emailSection {
+  background-color: #303030;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 50%;
+  margin-top: 0px;
+}
+
+.emailSection form {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.emailSection label {
+  font-weight: 800;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.emailSection textarea {
+  border-style: none;
+  border-radius: 10px;
+  margin-left: -1px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: row;
+  width: 66vw;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sendBtn {
+  background-image: linear-gradient(
+    105deg,
+    hsl(191deg 48% 62%) 0%,
+    hsl(198deg 53% 65%) 11%,
+    hsl(205deg 54% 68%) 22%,
+    hsl(215deg 51% 72%) 33%,
+    hsl(230deg 42% 75%) 44%,
+    hsl(257deg 35% 74%) 56%,
+    hsl(287deg 29% 72%) 67%,
+    hsl(318deg 33% 71%) 78%,
+    hsl(336deg 42% 72%) 89%,
+    hsl(350deg 46% 73%) 100%
+  );
+  color: #303030;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
+  width: 50%;
+  font-weight: 700;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  place-items: center;
+}
+
+.sendBtn:hover{
+    cursor: pointer;
+}
+
+.sendIcon{
+    margin-top: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactSection {
+        display: flex;
+        flex-direction: column;
+        width: 77vw;
+        justify-content: space-between;
+        margin-top: 0px;
+      }
+      .contactInfo {
+        width: 100%;
+      }
+      .emailSection {
+        width: 86%;
+        margin-top: 0px;
+      }
+      .sendBtn{
+        width: 60%;
+      }
+  }
+  
