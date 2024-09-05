@@ -7,7 +7,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
   const [style, setStyle] = useState("");
-  const [mobileNav, setMobileNav] = useState(false);
+  const [mobileNav, setMobileNav] = useState(true);
   const onClick = () => {
     setMobileNav(!mobileNav);
     if (mobileNav == true) {
