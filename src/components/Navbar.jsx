@@ -6,7 +6,7 @@ import { GitHub, LinkedIn } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
-  const [style, setStyle] = useState("");
+  const [style, setStyle] = useState("hidden");
   const [mobileNav, setMobileNav] = useState(true);
   const onClick = () => {
     setMobileNav(!mobileNav);
