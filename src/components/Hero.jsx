@@ -15,9 +15,9 @@ function Hero() {
     <div className="heroContainer">
       <div className="images">
         {onlineImg == true ? (
-          <img className="onlineImg" src="src/assets/Online.png" />
+          <img className="onlineImg" src="/Online.png" />
         ) : (
-          <img className="onlineImg" src="src/assets/Offline.png" />
+          <img className="onlineImg" src="/Offline.png" />
         )}
       </div>
       <div className="heroContent">
