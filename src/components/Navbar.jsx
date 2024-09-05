@@ -20,7 +20,7 @@ function Navbar() {
     <>
       <nav className="navbarContainer">
         <div className="logoContainer">
-          <WavingHandIcon className="logo" />
+          <a href="/"><WavingHandIcon className="logo" /></a>
         </div>
         <ul className="navbarItems">
           <li className="home">

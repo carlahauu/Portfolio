@@ -73,7 +73,6 @@ export function Contact() {
         <div className="contactSocials">
           <a href="https://www.linkedin.com/in/carla-hau/">Linkedin</a>
           <p>(626) 278-4892</p>
-          <p>Los Angeles, CA</p>
         </div>
         <div className="contactMessage">
           <p>

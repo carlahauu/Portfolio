@@ -33,13 +33,13 @@
 
 .contactSocials a {
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .contactSocials {
   margin-top: 0px;
   flex-direction: row;
   display: flex;
-  justify-content: space-between;
   width: 95%;
   place-items: center;
 }
@@ -185,12 +185,13 @@
   }
   .contactInfo {
     width: 100%;
+    font-size: 15px;
   }
   .emailSection {
     width: 86%;
     margin-top: 10px;
   }
   .sendBtn {
-    width: 60%;
+    width: 107%;
   }
 }
