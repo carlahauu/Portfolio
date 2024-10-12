@@ -15,7 +15,7 @@ function Hero() {
     <div className="heroContainer">
       <div className="images">
         {onlineImg == true ? (
-          <img className="onlineImg" src="src/assets/Online.jpg" />
+          <img className="onlineImg" src="https://i.ibb.co/ZNBqJpN/IMG-6565-4.jpg" />
         ) : (
           <img className="onlineImg" src="/Offline.png" />
         )}
