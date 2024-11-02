@@ -23,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <p className="author">© 2024 Carla Hau</p>
-      <p className="lastUpdated">Last Updated August 2024</p>
+      <p className="lastUpdated">Last Updated October 2024</p>
       <div className="devInfo">
         <p>Loosely designed in Figma and coded in Visual Studio Code. Built with React.js, HTML & CSS, Firestore, Material-UI Icons, React-Icons, EmailJS.
           Deployed with Vercel. All text is set in the Inter typeface.</p>

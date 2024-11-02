@@ -30,7 +30,7 @@ function Navbar() {
             <a href="/projects">projects</a>
           </li>
           <li>
-            <a href="">resume</a>
+            <a href="https://drive.google.com/file/d/1cbtfWWbVufVXavHbrs1nt-M32oe3_VPv/view?usp=sharing">resume</a>
           </li>
           <li>
             <a href="/about">about</a>

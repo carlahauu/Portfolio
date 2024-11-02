@@ -18,7 +18,7 @@ function ProjectBlock(props) {
         <div className="projectButtons">
           {props.demo == true && <button className="demoBtn"><a href={props.demoLink}>Live Demo</a></button>}
           <button className="githubBtn"><a href={props.repoLink}>GitHub Repo</a></button>
-          
+
         </div>
       </div>
     </div>
