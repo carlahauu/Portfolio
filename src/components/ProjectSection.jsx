@@ -2,27 +2,29 @@ import React from "react";
 import ProjectBlock from "./ProjectBlock";
 import "../styles/ProjectSection.css";
 import flashifyImage from "/src/assets/Flashify.png";
+import playlistyImage from "/src/assets/Playlisty.png";
 import { AutoAwesome } from "@mui/icons-material";
 
 function ProjectSection() {
   const flashifyDemo = true;
   const flashifySkills = ["React.js", "HTML & CSS", "Clerk", "Gemini API"];
+  const playlistySkills = ["React.js", "HTML & CSS", "Spotify API", "Gemini API"];
   return (
     <div className="projectsSection">
       <h2 className="projectHeader">
         Personal Projects <AutoAwesome className="projectsSparkle" />
       </h2>
       <ProjectBlock
-        name="Flashify"
-        img={flashifyImage}
-        desc="Flashify is a website that generates custom flashcards based on the
-          user's notes using Google's Gemini AI API, providing users with an
-          interactive and efficient study tool through a React.js interface and
-          secure OAuth authentication via Clerk."
+        name="Playlisty"
+        img={playlistyImage}
+        desc="Playlisty curates playlists that match your vibe in seconds!
+        Simply input your preferences, and let Playlisty do the rest—bringing you the best tracks 
+        tailored to your unique taste, all through seamless Spotify integration. 
+        It's your music, your way. "
         demo={flashifyDemo}
-        skills={flashifySkills}
-        demoLink="https://www.flashify.online"
-        repoLink="https://github.com/carlahauu/Flashify"
+        skills={playlistySkills}
+        demoLink="https://playlisty.carlahau.com"
+        repoLink="https://github.com/carlahauu/Playlisty"
       />
     </div>
   );
